@@ -36,8 +36,7 @@ div#menus {
     font-size: 17px;
 }
 
-header a
-{
+header a {
     text-decoration: none;
     color: black;
 }
@@ -47,12 +46,11 @@ main {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-top: 130px;
 }
 
-main p
-{
+main p {
     text-align: justify;
     color: white;
 }
@@ -68,20 +66,17 @@ main div#about {
     width: auto;
 }
 
-main div#about p
-{
+main div#about p {
     color: white;
     padding-top: 25px;
 }
 
-main h1
-{
+main h1 {
     font-size: 40px;
     color: white;
 }
 
-div#info
-{
+div#info {
     margin-top: 180px;
     margin-left: auto;
     margin-right: auto;
@@ -90,18 +85,15 @@ div#info
     justify-content: space-between;
 }
 
-div#info div
-{
+div#info div {
     width: 300px;
 }
 
-div#info h1
-{
+div#info h1 {
     color: white;
 }
 
-div#info p
-{
+div#info p {
     padding-top: 25px;
     color: white;
 
@@ -118,8 +110,7 @@ footer {
     width: 1170px;
 }
 
-div#line
-{
+div#line {
     height: 5px;
     width: 100%;
     background-color: white;
@@ -127,8 +118,7 @@ div#line
     margin-bottom: 20px;
 }
 
-div#social
-{
+div#social {
     margin-left: auto;
     margin-right: auto;
     width: 150px;
@@ -136,51 +126,199 @@ div#social
     justify-content: space-between;
 }
 
-div#social img
-{
+div#social img {
     height: 35px;
-} 
+}
 
-#servicos 
-{
+#servicos {
+    padding-top: 130px;
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding-bottom: 20px;
+
 }
-  
-#servicos h2 
-{
-    text-align: center;
-    color: #333;
+
+#servicos h2 {
+    color: #a9a9a9;
+    padding-bottom: 15px;
 }
-  
-table 
-{
+
+#servicos p {
+    color: white;
+    line-height: 20px;
+}
+
+#servicos table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 30px 0;
 }
-  
-th, td 
-{
+
+#servicos th,
+td {
     padding: 12px;
     text-align: center;
 }
-  
-thead 
-{
+
+#servicos thead {
     background-color: #333;
     color: #fff;
 }
-  
-tbody tr 
-{
+
+#servicos tbody tr {
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#servicos tbody tr:hover {
+    background-color: #555;
+}
+
+#contato {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#contato p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#contato .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contato .btn:hover {
+    background-color: #555;
+}
+
+#exemplos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 1170px;
+}
+
+#exemplos h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    color: #555;
+}
+
+.exemplos-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.exemplo {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exemplo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px #000000;
+    transition: transform 0.3s ease;
+}
+
+.exemplo img:hover {
+    transform: scale(2);
+}
+
+.exemplo p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+#contatopg {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    width: 1170px;
+    display: block;
+}
+
+#contatopg h1 {
+    color: white;
+    padding-bottom: 50px;
+}
+
+#contatopg label {
     color: white;
 }
-  
-tbody tr:hover 
-{
-    background-color: #575757;
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-  
+
+#contatopg div {
+    padding-bottom: 20px;
+}
+
+#contatopg button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#contatopg button:hover {
+    background-color: #555;
+}
+
+.curriculo table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.curriculo th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+.curriculo thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.curriculo tbody tr {
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.curriculo tbody tr:hover {
+    background-color: #555;
+}
+
+#curriculo h1
+{
+    padding-bottom: 20px;
+}
